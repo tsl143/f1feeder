@@ -1,7 +1,7 @@
 {
-  "version": "1.1",	
-  "name": "Stay Fit",
-  "description": "An app to remind you of your fitness and provide tips to stay healthy. One can maintain health card within the app",
+  "version": "1",	
+  "name": "F1 Feeder",
+  "description": "An app to keep you update about the f1 standings and provides the stats about your favorite Drivers",
   "launch_path": "/index.html",
   "icons": {
     "128": "/img/icon_128.jpg",
