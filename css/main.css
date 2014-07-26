@@ -1,0 +1,21 @@
+.driverfor {
+    font-style: italic;
+}
+ul li
+{
+    margin:5px 0!important;
+}
+ul li a,ul li
+{
+    background: rgba(255,255,255,0.7)!important;font-weight: bold;
+}
+.ui-page
+{
+    background: url(../img/back.jpg);
+    background-size: 100% 100%;
+}
+.ui-header{background: none!important;border: 0!important;}
+
+.dirverName{display:block;color:#000!important;text-decoration: none;text-align: center;padding: 5px;font-weight: bold;border-radius: 10px;-webkit-border-radius: 10px;background: rgba(255,255,255,0.7)}
+.circuit {display: block;color:#000!important;text-decoration: none;background: rgba(255, 255, 255, 0.7) !important;font-weight: bold;margin: 15px;padding: 10px;text-align: center;}
+.backBtn{position: absolute;top:5px;right: 5px;padding:0px!important;width: 25px;height: 25px;z-index: 1;display: block;background:url(../img/back.png)!important;background-size: 100% 100%!important;border:none;}

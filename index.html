@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>F1 Feeder</title>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/main.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div data-role="page" id="home">
+  <div data-role="header">
+      <img src="img/logo.png"/>
+  </div>
+  <div data-role="main" class="ui-content">
+      <ul id="driverlist" data-role="listview" data-filter="true" data-filter-placeholder="Search Drivers..." data-inset="true">
+      </ul>
+  </div>
+</div>
+      
+    
+<div data-role="page" id="driverdetail">
+  <div data-role="header">
+      <a class="backBtn" data-rel="back" data-direction="reverse"></a>    
+      <img src="img/logo.png"/>
+  </div>
+  <div data-role="main" class="ui-content">
+      <div class="dirverName"></div> 
+      <ul id="driverRaces" data-role="listview" data-inset="true">
+      </ul>
+  </div>
+</div>
+<div data-role="page" id="racedetail">
+    <div data-role="header">
+      <a class="backBtn" data-rel="back" data-direction="reverse"></a>    
+      <img src="img/logo.png"/>
+  </div>
+  <div data-role="main" class="ui-content">
+      <a class="dirverName" target="_blank"></a> 
+      <a target="_blank" class="circuit"><div id="circuitName"></div><span id="state"></span><span id="country"></span></a>
+      <ul data-role="listview" data-inset="true">
+          <li>Position<span class="ui-li-count" id="racePosition">Oops</span></li>
+          <li>Time<span class="ui-li-count" id="raceTime"></span></li>
+          <li>Status<span class="ui-li-count" id="raceStatus"></span></li>
+          <li>Avg. Speed<span class="ui-li-count" id="raceSpeed"></span></li>
+          <li>Laps<span class="ui-li-count" id="raceLaps"></span></li>
+          <li>Fastest Lap<span class="ui-li-count" id="raceFastestLap"></span></li>
+          <li>Grid<span class="ui-li-count" id="raceGrid"></span></li>
+      </ul>
+  </div>
+</div>    
+</body>
+</html>
