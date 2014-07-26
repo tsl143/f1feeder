@@ -1,0 +1,17 @@
+.driverfor {
+    font-style: italic;
+}
+ul#driverlist li
+{
+    margin:5px 0!important;
+}
+.driver
+{
+    background: rgba(255,255,255,0.7)!important;
+}
+.ui-page
+{
+    background: url(../img/back.jpg);
+    background-size: 100% 100%;
+}
+.ui-header{background: none!important;border: 0!important;}
